@@ -1,0 +1,6 @@
+Node: E:data->E0
+typeOf: dcs:StatVarObservation
+observationAbout: C:data->GEOID
+observationDate: C:data->date
+variableMeasured: smokePM_pred
+value: C:data->smokePM_pred

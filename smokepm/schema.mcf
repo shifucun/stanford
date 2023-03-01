@@ -1,0 +1,10 @@
+Node: dcid:dc/g/Custom_Root
+typeOf: dcs:StatVarGroup
+specializationOf: dcid:dc/g/Root
+name: "Stanford"
+
+Node: dcid:smokePM_pred
+typeOf: dcs:StatisticalVariable
+measuredProperty: dcid:smokePM_pred
+statType: dcs:measuredValue
+description: "Estimates of Ambient Wildfire Smoke PM 2.5"
