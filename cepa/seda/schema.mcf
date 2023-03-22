@@ -1,9 +1,10 @@
-Node: dcid:dc/g/Custom_DC
+Node: dcid:dc/g/Stanford
 typeOf: dcs:StatVarGroup
 specializationOf: dcid:dc/g/Root
 name: "Stanford"
 
-Node: dcid:dc/g/Custom_Root
+Node: dcid:dc/g/Stanford/CEPA
 typeOf: dcs:StatVarGroup
-specializationOf: dcid:dc/g/Custom_DC
+specializationOf: dcid:dc/g/Stanford
 name: "CEPA"
+isFallbackRoot: dcs:True

@@ -1,12 +1,13 @@
-Node: dcid:dc/g/Custom_DC
+Node: dcid:dc/g/Stanford
 typeOf: dcs:StatVarGroup
 specializationOf: dcid:dc/g/Root
 name: "Stanford"
 
-Node: dcid:dc/g/Custom_Root
+Node: dcid:dc/g/Magic_Lab
 typeOf: dcs:StatVarGroup
-specializationOf: dcid:dc/g/Custom_DC
+specializationOf: dcid:dc/g/Stanford
 name: "Magic Lab"
+isFallbackRoot: dcs:True
 
 Node: dcid:Count_SolarInstallation_Residential
 description: "The number of separate residential solar installations counted by DeepSolar model"

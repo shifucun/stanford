@@ -1,16 +1,16 @@
-Node: dcid:dc/g/Custom_DC
+Node: dcid:dc/g/Stanford
 typeOf: dcs:StatVarGroup
 specializationOf: dcid:dc/g/Root
 name: "Stanford"
 
-Node: dcid:dc/g/Custom_Root
+Node: dcid:dc/g/Echo_Lab
 typeOf: dcs:StatVarGroup
-specializationOf: dcid:dc/g/Custom_DC
+specializationOf: dcid:dc/g/Stanford
 name: "ECHO Lab"
+isFallbackRoot: dcs:True
 
 Node: dcid:smokePM_pred
 typeOf: dcs:StatisticalVariable
 measuredProperty: dcid:smokePM_pred
 statType: dcs:measuredValue
 description: "Estimates of Ambient Wildfire Smoke PM 2.5"
-memberOf: dcid:dc/g/Custom_Root
