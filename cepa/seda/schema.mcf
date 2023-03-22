@@ -1,0 +1,9 @@
+Node: dcid:dc/g/Custom_DC
+typeOf: dcs:StatVarGroup
+specializationOf: dcid:dc/g/Root
+name: "Stanford"
+
+Node: dcid:dc/g/Custom_Root
+typeOf: dcs:StatVarGroup
+specializationOf: dcid:dc/g/Custom_DC
+name: "CEPA"

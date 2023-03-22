@@ -1,0 +1,21 @@
+Node: dcid:dc/g/Custom_DC
+typeOf: dcs:StatVarGroup
+specializationOf: dcid:dc/g/Root
+name: "Stanford"
+
+Node: dcid:dc/g/Custom_Root
+typeOf: dcs:StatVarGroup
+specializationOf: dcid:dc/g/Custom_DC
+name: "Magic Lab"
+
+Node: dcid:Total_Distribution_Power_Line_Length
+measuredProperty: dcid:Total_Distribution_Power_Line_Length
+statType: dcs:measuredValue
+description: "The total distribution of power line length"
+memberOf: dcid:dc/g/Custom_Root
+
+Node: dcid:Cost_Per_Household_For_undergrounding_Fire_Prone_Lines
+measuredProperty: dcid:Cost_Per_Household_For_undergrounding_Fire_Prone_Lines
+statType: dcs:measuredValue
+description: "Cost per household for underground fire prone lines"
+memberOf: dcid:dc/g/Custom_Root
